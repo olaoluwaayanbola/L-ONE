@@ -1,0 +1,511 @@
+body{font-family: Impact, 'Arial Narrow Bold', sans-serif;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/*************************************
+**************************************
+     CSS GRID-LAYOUT-DIVISIONS
+**************************************
+**************************************/
+
+.container{
+    max-width: 1500px;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(4 ,minmax(2px,auto));
+    grid-template-rows: repeat(4,minmax(50px,auto));
+    grid-column-gap: 1px;
+    border:1px;
+    border-radius: 10px;
+}
+.one{
+    grid-row: 1/2;
+    grid-column: 1/5;
+    background-color: t;
+    position: relative;
+    z-index: 5;
+}
+.two{
+    grid-column: 1/5;
+    background-image: url("banner.jpg" );
+    max-height:580px;
+    min-height: 580px;
+    width: 100%;
+    background-color: #19af83;
+    color: white;
+    overflow: hidden;
+}
+.three{
+    grid-column: 1/5; 
+    margin-top: 0px;
+}
+.four {grid-column: 1/5;}
+
+.five {grid-column: 1/5;}
+
+.six  {grid-column: 1/5;}
+
+.seven{grid-column: 1/5;}
+
+.eight{grid-column: 1/5;}
+
+.nine {grid-column: 1/5;}
+/*****************************************
+******************************************
+        MAIN NAVIGATION HEADER
+******************************************
+******************************************/
+
+.main_navigation{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+.main_navigation #Logo_image img{
+    display: block; 
+    float: left;
+    height: 200px;
+    padding-top: 0px;
+    height: 90px;
+    width: 100px;
+    padding-bottom: 50px;
+}
+.main_navigation ul  {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding-top: 12px;
+}
+.main_navigation li{
+    display: inline-block;
+    padding: 3px;
+}
+.main_navigation ul li a {
+    text-decoration: none;
+    color: rgb(145, 150, 197);
+}
+.main_navigation ul li a:hover{
+    color:#19af83 ;
+    font-size: 19px;
+}
+/*****************************************
+******************************************
+        BANNER IMAGE 
+******************************************
+******************************************/
+.two .carousel {
+    margin-left: 100px;
+    margin-top:100px ;
+    color: #fff;
+}
+.paragrah {
+    width: 380px;
+    line-height: 30px;
+    font-size: 19px;
+}
+.two .carousel  h5{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn{ margin-left: 100px;}
+
+.btn input{
+    background-color: #19af83;
+    border: 1px solid  #19af83;
+    font-size: 18px;
+    padding-top: 1px 1px 1px 1px;
+    border-radius: 40px;
+    height: 50px;
+    width:115px;
+    color: white;
+    margin-top:20px ;
+}
+.two input:hover{
+    background-color: white;
+    color:  #19af83;
+}
+#btn_2{margin-left: 20px;}
+/****************************************
+*****************************************
+              SECTION3
+*****************************************
+*****************************************/
+.font_formatting_section_three{color: #333}
+
+.three #Header_section_three{
+    font-size:25px;
+    padding: 15px;
+}
+.three #Body_section_three p{
+    margin-left: 225px;
+    margin-right: 225px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.three{
+    background-color: seashell;
+    height: 700px;
+    text-align: center;
+    line-height: 20px;
+}
+.three .blocks{
+    background-color: #00a498;
+    padding: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 190px;
+    height: 400px;
+    margin-left: 10px;
+}
+.three .blocks .Formatting_Text_Block h1{
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.three .blocks .Formatting_Text_Block {
+    padding-top: 20px;
+    color: #00a498;
+}
+.three .blocks .Formatting_Text_Block:hover{
+    color: white;
+    transition:ease-in;
+    transition-delay: 0.15s;
+}
+/****************************************
+*****************************************
+              SECTION4
+*****************************************
+*****************************************/
+.four{
+    background-color: #efefef;
+    height: 440px;
+    position: relative;
+}
+#Section_Four_image img{
+    height: 440px;
+    float: left;
+}
+#Formatting_Text_Section_Four {
+    float: left;
+    padding-left: 10px;
+    height: 400px;
+    width: 550px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.four #Formatting_Text_Section_Four{color: #333;}
+
+.four #Formatting_Text_Section_Four h1{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.four #Formatting_Text_Section_Four p{
+    padding-bottom: 30px;
+    line-height: 27px;
+}
+.four input{
+    background-color: #19af83;
+    border: 1px solid  #19af83;
+    color: white;
+    font-size: 18px;
+    padding-top: 1px 1px 1px 1px;
+    border-radius: 40px;
+    height: 40px;
+    width:125px;
+}
+.four input:hover{
+    background-color: white;
+    color:  #19af83;
+}
+/****************************************
+*****************************************
+              SECTION5
+*****************************************
+*****************************************/
+.five{
+    background-image: url("video.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.five .Section_Five_Text_Formatting{
+    text-align: center;
+    height: 400px;
+    margin-top: 7%;
+    color: white;
+}
+.five .Section_Five_Text_Formatting > h2{
+    font-size: 25px;
+    font-weight: 400;
+    font-family:  'Arial Narrow Bold',
+}
+.five .Section_Five_Text_Formatting > p{ padding-top: 20px; }
+/****************************************
+*****************************************
+              SECTION6
+*****************************************
+*****************************************/
+.six .Section_Six_Text_Formatting{
+    text-align: center;
+    margin-top: 40px;
+    color:#333;
+}
+.six .Section_Six_Text_Formatting > h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+.six .Section_Six_Text_Formatting > p{
+    width:800px ;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+/****************************************
+*****************************************
+              SECTION7
+*****************************************
+*****************************************/
+.seven .Links_Seven ul{
+    list-style-type: none;
+    display: inline;
+    margin-left: 27%;
+    margin-right: 25%;
+    padding-bottom: 5px;
+}
+.seven .Links_Seven ul li {display: inline-block;}
+
+.seven .Links_Seven ul li a{
+    color: #333;
+    text-decoration: none;
+    padding: 27px;
+    padding-left: 5px;
+}
+.seven .Links_Seven ul li a:hover{color:#19af83;}
+/***************************************
+            SECTION7B-SLIDES-KINDOFF
+***************************************/
+.Image_Grid{
+    position: relative;
+    padding-top: 30px;
+}
+.Image_Grid .image_grid_RE .image_grid_1 {float: left;}
+
+.Image_Grid .image_grid_RE .image_grid_1 img{
+    object-fit: cover;
+    width: 451px;
+    height: 301px;
+}
+.Image_Grid .image_grid_RE .image_grid_1 img:hover{ object-fit: fill; transition: 0.5s ease;}/* be proud you did well */
+
+.Image_Grid .image_grid_RE .image_grid_1{position: relative;}
+
+.Image_Grid .image_grid_RE .overlay_img_Image_grid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1d2a2e;
+} 
+.Image_Grid .image_grid_RE .overlay_img_Image_grid:hover{opacity: 0.5;}
+
+.Image_Grid .image_grid_RE .text{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+  }
+.Image_Grid .image_grid_RE .text h2{padding-bottom: 30px;}
+/****************************************
+*****************************************
+              SECTION8
+*****************************************
+*****************************************/
+.eight{
+    max-width: 1500px;
+    padding-bottom: 80px;
+}
+.eight .one_eight{
+    display: inline-block;
+    width: 60% ;
+}
+.eight .eight_contents_styling h2{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #333;
+}
+  .eight .one_eight .form_control{
+    padding-left: 150px;
+    border-right: 1px solid rgb(202, 182, 182);
+}
+  .eight .one_eight .form_control p{
+    padding-bottom: 30px;
+    margin: 6px;
+    color: #333;
+}
+  .eight .one_eight .form_control input{
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #999999;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+   .eight .one_eight .form_control textarea{
+    max-width:627px;
+    min-width:623px;
+    min-height: 100px;
+    border: none;
+    border-bottom:1px solid rgb(161, 154, 154);
+}
+  .eight .one_eight .form_control textarea::placeholder{
+    font-size: 14.5px;
+    padding-left: 0;
+  }
+  .eight .control_textarea{
+    padding-left: 13px;
+    padding-bottom: 20px;
+  }
+  #btn_x{
+    background-color: #19af83;
+    border: 1px solid  #19af83;
+    font-size: 18px;
+    padding-top: 1px 1px 1px 1px;
+    border-radius: 40px;
+    height: 40px;
+    width:105px;
+    color: white;
+}
+    .eight #btn_xx{padding-left: 270px;}
+/* PART B */
+    .eight .two_eight{
+    display: inline-block;
+    width: 40% ;
+    float: right;
+}
+    .eight .two_eight .text_form_information{padding-left: 30px;}
+
+    .eight .two_eight .text_form_information:nth-of-type(){ color: aquamarine;}
+
+    .eight .two_eight .text_form_information h4{
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 6px;
+    color: #333;
+}
+  .text_form_information  .icon {
+    font-size: 31px;
+    color: #333;
+    float: left;
+}
+  .text_form_information  .font_control{
+    padding-left: 45px;
+    color: #333;
+    line-height: 30px;
+}
+  .text_form_information  .font_control h6{font-size: 20px;}
+
+  .box{padding-bottom: 40px;}
+/****************************************
+*****************************************
+              SECTION9
+*****************************************
+*****************************************/
+.nine{
+    height: 384px;
+    background-color:black;
+    color: white;
+}
+.nine .Container_nine{padding-top:90px;}
+
+.nine .Container_nine .Text_Format{
+    text-align: center;
+    color: #fff;
+    width: 700px;
+    display: inline;
+    background-color: rgb(62, 62, 129);
+}
+.nine .Footer_input{
+    margin-left:552px ;
+    margin-top: 30px;
+}
+.nine .Footer_input input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: black;
+    position: relative;
+}
+.nine .Footer_input input::placeholder{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 90px;
+    position: relative;
+    line-height: 11px;
+}
+.nine .Footer_input input[type=text]{
+   color: white;
+   font-size: medium;
+}
+ #pp{
+    background-image: url("email-box-arrow.png");
+    background-repeat: no-repeat ;
+    background-position: right;
+    cursor: pointer;
+    padding-top: 9px;
+}
+.nine .nine_rows{
+    margin-top: 100px;
+    width: 100%;
+}
+.nine .nine_rows .nine_float_right{
+    float: left;
+    padding-left: 100px;
+}
+.nine .nine_rows .nine_float_right p{
+    padding-top:10px;
+    padding-left: 2px;
+    font-size: 13px;
+}
+.nine .nine_rows .nine_float_right p b{color: #38856e;}
+
+.nine .nine_rows .nine_float_left{
+    float: right;
+    padding-right: 100px;
+}
+.nine_float_left  .fab{
+    font-size: 20px;
+    padding-left: 16px;
+}
