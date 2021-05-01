@@ -1,0 +1,79 @@
+/****************************************
+*****************************************
+              SECTION8
+*****************************************
+*****************************************/
+/* .eight{
+    margin-top: 30px;
+}
+.eight h2{
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-left: 380px;
+    width: 200px;
+}
+.form_container{
+    width: 700px;
+}
+.eight .eight_contents_styling{
+   margin-left: 220px;
+} */
+/* .eight input */{
+/* $    position: relative;
+    transition: all 0.3s ease; $*/
+    /* display: grid;
+    
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #999999;
+}
+.eight input[type=text], textarea {
+    width: 40%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.eight .eight_contents_styling input[type=text]{
+    display: inline-block;
+    cursor: pointer;
+}  
+.eight .eight_contents_styling textarea{
+    max-width: 590px;
+    min-width: 590px;
+    color:rebeccapurple;
+   
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid #999999;
+}
+.eight .eight_contents_styling textarea::placeholder{font-size: 15px;}
+
+.eight .eight_contents_styling input::placeholder{color: rebeccapurple;}
+ */
+/** .eight .eight_contents_styling input:hover::placeholder{
+    position: absolute;
+    
+} **/
+/* Section8 part B */
+/* .eight .Floater_eight{
+    position: relative;
+    display: inline-block;
+    float: right;
+    
+    padding: 40px;
+    width: 400px;
+}
+.eight .Floater_eight .text_form_information{
+    float: left;
+    max-width: 1000px;
+} */
+
+
+/****************************************
+*****************************************
+              SECTION9
+*****************************************
+*****************************************/
+
+
+
